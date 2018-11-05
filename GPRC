@@ -1,0 +1,7 @@
+set term "pdf"
+set output "goissue6643.pdf"
+set style data linespoints
+set xlabel "literal size kbytes"
+set ylabel "compiler needs Mbytes"
+plot "bytes.dat", "string.dat"
+
